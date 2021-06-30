@@ -1,0 +1,176 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Welcome to the-internet Tests",
+    "line": 1,
+    "id": "welcome-to-the-internet-tests",
+    "tags": [],
+    "uri": "example.feature",
+    "elements": [
+      {
+        "id": "welcome-to-the-internet-tests;add/remove-elements",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Add/Remove Elements",
+        "tags": [
+          {
+            "name": "@focus",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the-internet homepage",
+            "result": {
+              "status": "passed",
+              "duration": 8029000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I navigate to \"Add/Remove Elements\"",
+            "result": {
+              "status": "passed",
+              "duration": 2354000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "\"Add/Remove Elements\" page opens",
+            "result": {
+              "status": "passed",
+              "duration": 36000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click Add Element",
+            "result": {
+              "status": "passed",
+              "duration": 198000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "There is 1 Delete button",
+            "result": {
+              "status": "passed",
+              "duration": 39000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I click Add Element",
+            "result": {
+              "status": "passed",
+              "duration": 262000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "There is 2 Delete button",
+            "result": {
+              "status": "passed",
+              "duration": 37000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I click Add Element",
+            "result": {
+              "status": "passed",
+              "duration": 225000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "There is 3 Delete button",
+            "result": {
+              "status": "passed",
+              "duration": 37000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I click first Delete button",
+            "result": {
+              "status": "passed",
+              "duration": 218000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "There is 2 Delete button",
+            "result": {
+              "status": "passed",
+              "duration": 27000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I click first Delete button",
+            "result": {
+              "status": "passed",
+              "duration": 228000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "There is 2 Delete button",
+            "result": {
+              "status": "failed",
+              "duration": 5038000000,
+              "error_message": "AssertionError: Timed out retrying after 5000ms: Not enough elements found. Found '1', expected '2'.\n    + expected - actual\n\n    -1\n    +2\n\n    at Context.eval (https://the-internet.herokuapp.com/__cypress/tests?p=cypress\\integration\\example.feature:49:57)\n    at Context.resolveAndRunStepDefinition (https://the-internet.herokuapp.com/__cypress/tests?p=cypress\\integration\\example.feature:10478:29)\n    at Context.eval (https://the-internet.herokuapp.com/__cypress/tests?p=cypress\\integration\\example.feature:9810:35)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I click first Delete button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "There is 0 Delete button",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

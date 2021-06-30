@@ -1,0 +1,42 @@
+{
+  "name": "cypress-cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress-open": "./node_modules/.bin/cypress open",
+    "generate-html-report": "node generate-html.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yahia-salah/cypress-cucumber.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yahia-salah/cypress-cucumber/issues"
+  },
+  "homepage": "https://github.com/yahia-salah/cypress-cucumber#readme",
+  "dependencies": {
+    "cucumber-html-reporter": "^5.4.0",
+    "cypress": "^7.6.0",
+    "cypress-cucumber-preprocessor": "^4.1.2",
+    "tsify": "^5.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^15.12.5",
+    "cypress-xpath": "^1.6.2",
+    "typescript": "^4.3.4"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  }
+}
